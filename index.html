@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultar CEP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Informe o CEP</h1>
+        <h2>Digite o CEP e ao sair o campo o endereço será completado.Pode utilizar a tecla TAB após digitar o CEP.</h2>
+        <form>
+            <div class="frm-row">
+                <label for="cep">Cep:</label>
+                <input type="text" name="Cep" id="cep" maxlength="8">
+            </div>
+            <div class="frm-row">
+                <label for="rua">Rua:</label>
+                <input type="text" name="Rua" id="Rua">
+            </div>
+            <div class="frm-row">
+                <label for="bairro">Bairro:</label>
+                <input type="text" name="Bairro" id="Bairro">
+            </div>
+            <div class="frm-row">
+                <label for="cidade">Cidade:</label>
+                <input type="text" name="Cidade" id="Cidade">
+            </div>
+            <div class="frm-row">
+                <label for="estado">Estado:</label>
+                <input type="text" name="Estado" id="Estado">
+            </div>
+            <div class="frm-row">
+                <label for="ibge">IBGE:</label>
+                <input type="text" name="IBGE" id="IBGE">
+            </div>
+        </form>
+
+
+        <a href="descobrir-cep.html">Não sabe seu CEP?</a>
+    </div>
+
+
+ 
+
+    <script src="./js/consulta-endereco.js"></script>
+    
+</body>
+</html>
